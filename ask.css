@@ -1,0 +1,124 @@
+#name{
+    text-align: left;
+    padding:20px;
+    font-size: 30px;
+    color:darkblue
+ }
+ #search{
+     text-align: center;
+     margin-top: -70px;
+     color:lightgray;
+     border-radius: 20px;
+     font-size: 20px;
+    
+     
+     
+ }
+ #login{
+     text-align: right;
+     margin-right: 20px;
+     margin-top: -50px;
+     color:darkblue
+ }
+ .head{
+     background-color:rgba(242, 194, 19, 0.627);
+ 
+ }
+ 
+ 
+ .head2{
+     display:inline-flex;
+     justify-content: flex-end;
+     background-color:rgba(235, 184, 0, 0.627);
+     width:100%;
+     justify-content: space-evenly
+     
+ }
+ 
+ .tc{
+     text-decoration: underline;
+ }
+ #club{
+     text-align: center;
+     color: lightgray;
+ }
+ .main{
+     background-image:url("https://media.post.rvohealth.io/wp-content/uploads/2023/10/Hub_desktop_fitness_3600x600_5-logo.jpg ");
+     height:500px;
+     padding:30px;
+     color:darkblue;
+     opacity:0.8
+ }
+ 
+ #bene{
+     text-align: center;
+     color: darkblue;
+ }
+ .main1{
+     display:inline-flex;
+     gap:90px;
+     justify-content:space-evenly;
+     align-items:center;
+     margin: 10px;
+    background-color: white;
+     opacity:0.9;
+     font-weight: bold;
+     color: darkblue;
+ }
+ 
+ .box{
+     height:150px;
+     width: 200px;
+     border-radius: 10px;
+     padding:10px;
+     margin:40px
+ 
+ }
+ #image{
+     height:270px;
+     width:300px;
+ }
+ .images{
+     display:grid;
+     grid-template:repeat(10,100px)/repeat(8,100px);
+     grid-gap:30px 30px;
+     padding:50px;  
+     background-color:rgba(243, 216, 120, 0.627);
+     height:800px;
+     color: darkblue;
+     
+   
+ }
+ .img1{
+     grid-area:1/1/2/3;
+    
+    
+ }
+ .img2{
+     grid-area:1/5/2/5;
+     
+    }
+ 
+ .img3{
+  grid-area:1/9/2/9;
+ 
+ }
+ 
+ .img5{
+   grid-area: 4/3/span2/span2;
+ }
+ .img4{
+     grid-area: 4/7/span2/span2;
+ }
+ 
+ 
+ 
+ footer{
+     color: darkblue;
+    display:flex;
+    justify-content: space-around;
+    background-color:rgba(242, 194, 19, 0.627);
+    margin-bottom: 0px;
+ 
+ }
+ 
